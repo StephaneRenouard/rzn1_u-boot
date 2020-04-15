@@ -301,9 +301,14 @@
 			reg = <0x01d0000 0x00600000>;
 		};
 		partition@7 {
-			/* Remaining */
+			/* 10MB File system */
 			label = "qspi0:data";
-			reg = <0x07d0000 0>;
+			reg = <0x07d0000 0x00A00000>;
+		};
+		partition@8 {
+			/* 14MB (Remaining) alpha data */
+			label = "qspi0:data";
+			reg = <0x11d0000 0>;
 		};
 	};
 };
