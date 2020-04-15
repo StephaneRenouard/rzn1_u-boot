@@ -307,7 +307,7 @@
 		};
 		partition@8 {
 			/* 14MB (Remaining) alpha data */
-			label = "qspi0:data";
+			label = "qspi0:alpha";
 			reg = <0x11d0000 0>;
 		};
 	};
